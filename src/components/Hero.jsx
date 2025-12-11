@@ -9,7 +9,7 @@ import securityIcon from '../assets/security-icon.png';
 
 const Hero = () => {
     return (
-        <section className="min-h-screen pt-32 pb-20 px-6">
+        <section className="min-h-screen pt-24 pb-20 px-6">
             <div className="max-w-7xl mx-auto">
                 <div className="grid lg:grid-cols-2 gap-16 items-center">
                     {/* Left Column */}
@@ -46,7 +46,7 @@ const Hero = () => {
                             </CTAButton>
                         </div>
                         {/* Stats Row */}
-                        <div className="grid grid-cols-3 gap-8 pt-12">
+                        <div className="grid grid-cols-3 gap-16 pt-12">
 
                             {/* 99.9% */}
                             <div>
@@ -88,7 +88,7 @@ const Hero = () => {
                         <div className="relative z-10 w-full h-full">
                             {/* Cloud */}
                             <div
-                                className="absolute top-20 left-20"
+                                className="absolute top-20 left-10"
                                 style={{
                                     opacity: 0,
                                     animation: `fadeIn 1s ease-out 0.5s forwards, floatHorizontal 4s ease-in-out 1.5s infinite`
@@ -101,7 +101,7 @@ const Hero = () => {
 
 
 
-                            <FloatingIcon className="absolute top-1/3 right-1" delay={0.3}>
+                            <FloatingIcon className="absolute top-1/3 right-1" delay={0.5}>
                                 <div className="flex items-center gap-4 bg-white/10 backdrop-blur-xl border border-white/20 px-6 py-4 rounded-2xl shadow-lg security-card">
 
                                     {/* Security Icon */}
@@ -121,7 +121,7 @@ const Hero = () => {
 
 
                             {/* Events / Response Card — Static */}
-                            <div className="absolute bottom-24 right-32">
+                            <div className="absolute bottom-24 right-24">
                                 <div className="px-6 py-4 bg-white/10 backdrop-blur-xl border border-white/20 rounded-2xl shadow-lg flex items-center gap-6">
 
                                     {/* Left Metric */}
@@ -153,7 +153,7 @@ const Hero = () => {
                                 </div>
                             </FloatingIcon> */}
                             <FloatingIcon className="absolute top-2/3 right+10" delay={1.2}>
-                                <img src={rhcsaBadge} alt="RHCSA Badge" className="w-64 h-64 object-contain hover:scale-110 transition-transform duration-300" />
+                                <img src={rhcsaBadge} alt="RHCSA Badge" className="w-48 h-48 object-contain hover:scale-110 transition-transform duration-300" />
                             </FloatingIcon>
                         </div>
 

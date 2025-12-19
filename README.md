@@ -1,6 +1,6 @@
 # HawkStack × Red Hat Landing Page
 
-A modern, animated landing page for HawkStack's Red Hat Enterprise Linux (RHEL) training and certification services. Built with React, Vite, and Tailwind CSS.
+A modern, animated landing page for HawkStack's Red Hat Enterprise Linux (RHEL) training and certification services. Built with React, Vite, and Tailwind CSS..
 
 ![HawkStack Landing Page](https://img.shields.io/badge/React-18.3.1-61DAFB?logo=react)
 ![Vite](https://img.shields.io/badge/Vite-6.0.5-646CFF?logo=vite)
